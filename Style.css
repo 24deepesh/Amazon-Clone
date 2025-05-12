@@ -1,0 +1,129 @@
+h1
+{
+    color:green;
+    background-color:rgb(242, 226, 154);
+}
+
+button{
+    color:rgb(173, 77, 211);
+}
+body{
+    background-color: rgb(246, 208, 115);
+}
+#hp{
+    color:chocolate;
+}
+.Hritik{
+    color:crimson;
+}
+#box{
+    background-color:rgb(130, 181, 240);
+}
+#kushwah100
+{
+    text-align:center;
+    text-transform: capitalize;
+}
+body{
+    font-family:'Times New Roman';
+}
+h1{
+    font-family: Arial;
+}
+#OUTER{
+    font-size:25px;
+}
+#INNER{
+    font-size:10px;
+}
+#hk{
+    height:100px;
+    width:100px;
+    background-color: chartreuse;
+    border-radius: 50%;
+}
+p{
+    font-size: 20px;
+    color:brown;
+}
+#div{
+    height: 200px;
+    width:200px;
+    background-image: url(nature.jpg);
+    background-size:cover;
+    color:azure;
+    position:fixed;
+    right:0;
+    top:100px;
+}
+.outer{
+    height: 400px;
+    width:400px;
+    background-color: chocolate;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    height:200px;
+    width:200px;
+    background-color:cornflowerblue;
+    
+}
+@media(max-width:300px)
+{
+.outer{
+     background-color: black;
+}
+.inner{
+    background-color: rgb(246, 208, 115);
+}
+}
+@media(min-width:300px)and(max-width:600px)
+{
+    .outer{
+        background-color:cadetblue;
+   }
+   .inner{
+       background-color:chocolate;
+   }
+}
+@media(min-width:1000px)
+{
+    .outer{
+        background-color:deeppink;
+   }
+   .inner{
+       background-color:blueviolet;
+   }
+}
+
+.loader{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 15px solid white;
+    border-left: 15px solid grey;
+    margin-left: 500px;
+    animation-name: Loader;
+    animation-duration: 2s;
+    animation-timing-function:ease-in;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes Loader{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+.doader{
+    font-size: 20px;
+
+}
